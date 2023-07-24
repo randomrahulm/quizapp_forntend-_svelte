@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Deep-learning",
+        "imageUrl": "https://cdn.educba.com/academy/wp-content/uploads/2020/01/Deep-Learning.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Who is father of deep learning?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Ilya Sutskever"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "David Rumelhart"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Alex Krizhevsky"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Frank Rosenblatt"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 2,
+                "question": "RNNs stands for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Recurrent Neural Networks"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Report Neural Networks"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Receives Neural Networks"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Recording Neural Networks"
+                    }
+                ],
+                "answer": "a"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Machine-learning",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1358/1*cG6U1qstYDijh9bPL42e-Q.jpeg",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Identify the type of learning in which labeled training data is used.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Semi unsupervised learning"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Supervised learning"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Reinforcment learning"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Unsupervised learning"
+                    }
+                ],
+                "answer": "b"
+            }
+        ]
+
+    }
+]
