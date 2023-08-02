@@ -1,4 +1,5 @@
 <script lang='ts'>
+    import { goto } from "$app/navigation"
     
     interface Quiz {
         id:number;
@@ -20,7 +21,7 @@
 </script>
 
 
-
+<button on:click={goto(`/quiz/${quiz.id}`)}>
 <div class="quiz_card w-[250px] shadow overflow-hidden cursor-pointer ">
     <img class="h-44" src={quiz.imageUrl} alt="" >
     <div class="flex item-center justify-between py-3 px-2">
@@ -28,3 +29,4 @@
         <p>{quiz.questions.length} questions</p>
     </div>
 </div>
+</button>
